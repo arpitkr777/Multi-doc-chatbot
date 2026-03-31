@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE / editor files
+.vscode/
+*.swp
+*.swo
+
+# Data files and local runtime artifacts
+data/
+vector_db_dir/
+
+# Secrets and local config
+config.json
+
+# macOS
+.DS_Store
